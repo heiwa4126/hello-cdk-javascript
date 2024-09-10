@@ -12,7 +12,7 @@ importers:
         specifier: 2.156.0
         version: 2.156.0(constructs@10.3.0)
       constructs:
-        specifier: ^10.0.0
+        specifier: ^10.3.0
         version: 10.3.0
     devDependencies:
       aws-cdk:
