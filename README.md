@@ -1,12 +1,19 @@
-# Welcome to your CDK JavaScript project
+# hello-cdk-javascript
 
-This is a blank project for CDK development with JavaScript.
+Bun と ECMAScript にした
+[AWS CDK v2 チュートリアル](https://docs.aws.amazon.com/ja_jp/cdk/v2/guide/hello_world.html)。
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app. The build step is not required when using JavaScript.
+## 手順
 
-## Useful commands
+```sh
+bun i
+bunx cdk list
+bunx cdk deploy
+bunx cdk diff
+bunx cdk destroy
+```
 
-* `npm run test`         perform the jest unit tests
-* `npx cdk deploy`       deploy this stack to your default AWS account/region
-* `npx cdk diff`         compare deployed stack with current state
-* `npx cdk synth`        emits the synthesized CloudFormation template
+## TODO
+
+- jest を vitest にする。
+- Terraform の output サブコマンド相当のが欲しい。 [Command: output | Terraform | HashiCorp Developer](https://developer.hashicorp.com/terraform/cli/commands/output)

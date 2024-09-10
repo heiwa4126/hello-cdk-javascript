@@ -1,6 +1,7 @@
 {
 	"name": "hello-cdk-javascript",
 	"version": "0.1.0",
+	"type": "module",
 	"bin": {
 		"hello-cdk-javascript": "bin/hello-cdk-javascript.js"
 	},

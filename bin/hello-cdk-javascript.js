@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const cdk = require('aws-cdk-lib');
-const { HelloCdkJavascriptStack } = require('../lib/hello-cdk-javascript-stack');
+import cdk from 'aws-cdk-lib';
+import { HelloCdkJavascriptStack } from '../lib/hello-cdk-javascript-stack.js';
 
 const app = new cdk.App();
 new HelloCdkJavascriptStack(app, 'HelloCdkJavascriptStack', {
