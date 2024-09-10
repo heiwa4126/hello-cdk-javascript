@@ -8,6 +8,7 @@
 		"synth": "cdk synth",
 		"deploy": "cdk deploy",
 		"diff": "cdk diff",
+		"destroy": "cdk destroy",
 		"test": "jest",
 		"format": "biome format --write .",
 		"lint": "biome lint .",
